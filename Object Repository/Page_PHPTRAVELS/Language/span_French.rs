@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_French</name>
+   <tag></tag>
+   <elementGuidId>27a76b75-b22d-4e7f-9d34-92a6c134bc74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='French']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(5) > a.dropdown-item.d-flex.gap-3.fadeout.waves-effect > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cd3ed660-8531-4837-9ce2-2aa01341c502</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>French</value>
+      <webElementGuid>3307de88-baed-4ba5-9657-23921b71edd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;nav-item--right&quot;]/ul[@class=&quot;navbar-nav gap-2 me-auto mb-2 mb-lg-0&quot;]/li[@class=&quot;nav-item dropdown&quot;]/ul[@class=&quot;dropdown-menu rounded-1 show&quot;]/li[5]/a[@class=&quot;dropdown-item d-flex gap-3 fadeout waves-effect&quot;]/span[1]</value>
+      <webElementGuid>3a68df40-0e87-4db2-accd-dc9f27872138</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
