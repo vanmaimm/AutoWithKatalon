@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>84d7390f-f5d5-419d-b8a8-bc7a55aa32aa</testSuiteGuid>
+   <testSuiteGuid>67fcf544-4fc2-4b30-b55c-10ff0b066843</testSuiteGuid>
    <testCaseLink>
-      <guid>2db357c0-eec5-48a5-b152-4c19b0e03d5e</guid>
+      <guid>04ad6759-56bd-4e4b-b09c-653c1e70fbaf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/SearchBar/Verify_SearchFlights</testCaseId>
+      <testCaseId>Test Cases/Dashboard/SearchBar/VerifySearchFlights</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

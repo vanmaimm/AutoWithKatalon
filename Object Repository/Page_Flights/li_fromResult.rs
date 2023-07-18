@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_destinationTo</name>
+   <name>li_fromResult</name>
    <tag></tag>
-   <elementGuidId>2db2f779-d536-475d-844c-9bcdfe9d51bb</elementGuidId>
+   <elementGuidId>493b0132-a2fa-414c-9250-ab7fca80ff60</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='search']</value>
+         <value>//button[contains(text(),'LHE')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

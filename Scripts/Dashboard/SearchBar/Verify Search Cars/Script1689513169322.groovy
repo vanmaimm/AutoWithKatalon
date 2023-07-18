@@ -19,23 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://phptravels.net/')
 
-WebUI.navigateToUrl(GlobalVariable.G_URL)
+WebUI.click(findTestObject('Object Repository/Cars/button_Cars'))
 
-WebUI.click(findTestObject('Page_Flights/btn_flights'))
+WebUI.setText(findTestObject('Object Repository/Cars/input_Dec_select2-search__field'), 'JED')
 
-WebUI.click(findTestObject('Page_Flights/o_flyingFrom'))
+WebUI.click(findTestObject('Object Repository/Cars/button_Childs_search_button w-100 btn btn-p_6519d4'))
 
-WebUI.setText(findTestObject('Page_Flights/input_flyingFrom'), 'LHE')
-
-WebUI.click(findTestObject('Page_Flights/li_fromResult'))
-
-WebUI.click(findTestObject('Page_Flights/o_destinationTo'))
-
-WebUI.setText(findTestObject('Page_Flights/input_destinationTo'), 'DXB')
-
-WebUI.click(findTestObject('Page_Flights/li_toResult'))
-
-WebUI.click(findTestObject('Page_Flights/btn_search'))
+WebUI.closeBrowser()
 

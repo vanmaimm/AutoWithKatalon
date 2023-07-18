@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC01_SearchHotels</name>
+   <name>TC04_ChangeLanguage</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>12af22e5-494c-405f-a59d-151c6488f01a</testSuiteGuid>
+   <testSuiteGuid>c50b987d-6aa3-4f3e-a328-714ed0ed88d7</testSuiteGuid>
    <testCaseLink>
-      <guid>2f6b3225-58c7-4f34-b7d5-7f4286a6fe3f</guid>
+      <guid>30c85870-ff66-44dd-98c6-6e825f1cad61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/SearchBar/Verify_SearchHotels</testCaseId>
+      <testCaseId>Test Cases/Dashboard/VerifyChangeLanguage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

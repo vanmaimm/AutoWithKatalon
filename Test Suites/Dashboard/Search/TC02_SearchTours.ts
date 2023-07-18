@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>eccc5c45-9d1b-425d-a30a-0b24a699976c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard/SearchBar/Verify_SearchTours</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

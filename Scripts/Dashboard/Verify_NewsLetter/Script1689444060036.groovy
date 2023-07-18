@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.G_URL)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Page_Flights/btn_flights'))
+WebUI.navigateToUrl(GlobalVariable.G_URL)
 
-WebUI.click(findTestObject('Page_Flights/o_flyingFrom'))
+WebUI.setText(findTestObject('Object Repository/Page_PHPTRAVELS/NewLetter/input_Newsletter_name'), 'test1')
+
+WebUI.setText(findTestObject('Object Repository/Page_PHPTRAVELS/NewLetter/input_Name_email'), 'test@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/Page_PHPTRAVELS/NewLetter/button_Signup Newsletter'))
 
