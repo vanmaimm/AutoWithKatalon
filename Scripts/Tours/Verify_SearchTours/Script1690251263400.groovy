@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.G_URL)
 
-WebUI.click(findTestObject('Page_Hotels/menu_hotels'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_Hotels/searchBar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Tours/menu_tours'))
 
-WebUI.setText(findTestObject('Page_Hotels/input_searchBar'), 'Singapore')
+WebUI.click(findTestObject('Page_Tours/o_searchBar'))
 
-WebUI.click(findTestObject('Page_Hotels/o_searchResult'))
+WebUI.setText(findTestObject('Page_Tours/input_searchBar'), 'Dubai')
 
-WebUI.click(findTestObject('Page_Hotels/menu_searchButton'))
+WebUI.click(findTestObject('Page_Tours/li_searchResult'))
+
+WebUI.click(findTestObject('Page_Tours/menu_searchButton'))
 
 WebUI.closeBrowser()
 
