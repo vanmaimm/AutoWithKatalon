@@ -29,5 +29,7 @@ WebUI.click(findTestObject('Page_Hotels/o_searchResult'))
 
 WebUI.click(findTestObject('Page_Hotels/menu_searchButton'))
 
+WebUI.click(findTestObject('Page_Hotels/SortHightoLow'))
+
 WebUI.closeBrowser()
 

@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.G_URL)
+
+WebUI.click(findTestObject('Page_Hotels/menu_hotels'))
+
+WebUI.click(findTestObject('Page_Hotels/searchBar'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Page_Hotels/input_searchBar'), 'Singapore')
+
+WebUI.click(findTestObject('Page_Hotels/o_searchResult'))
+
+WebUI.click(findTestObject('Page_Hotels/menu_searchButton'))
+
+WebUI.click(findTestObject('Page_Hotels/map'))
+
+WebUI.closeBrowser()
+
