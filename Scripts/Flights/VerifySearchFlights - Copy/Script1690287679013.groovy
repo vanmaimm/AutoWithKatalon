@@ -25,5 +25,17 @@ WebUI.navigateToUrl(GlobalVariable.G_URL)
 
 WebUI.click(findTestObject('Page_Flights/btn_flights'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Flights/o_flyingFrom'))
+
+WebUI.setText(findTestObject('Page_Flights/input_flyingFrom'), 'LHE')
+
+WebUI.click(findTestObject('Page_Flights/li_fromResult'))
+
+WebUI.click(findTestObject('Page_Flights/o_destinationTo'))
+
+WebUI.setText(findTestObject('Page_Flights/input_destinationTo'), 'DXB')
+
+WebUI.click(findTestObject('Page_Flights/li_toResult'))
+
+WebUI.click(findTestObject('Page_Flights/btn_search'))
 
